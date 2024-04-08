@@ -4,11 +4,11 @@ import string
 import time
 
 # Copy authtoken from https://dashboard.ngrok.com/auth
-authtoken = 'YOUR_NGROK_AUTH_TOKEN'
+authtoken = '2a5jNDKmRIk2FVCN1iTNvuOMyR8_63cCAyBYjfwH3og37uJrY'
 
 # password = ''.join(random.choice(string.ascii_letters + string.digits) for i in range(20))
-password = 'WHATEVER_YOU_WANT'
-public_key_path = 'LINK_TO_YOUR_PUBLIC_KEY'
+password = 'pass'
+public_key_path = 'https://microbin.2damoon.xyz/raw/fish-fly-eel'
 
 # Download ngrok
 ! wget -q -c -nc https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
